@@ -1,0 +1,106 @@
+body {
+    background-color:mediumspringgreen;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    touch-action: none;
+    background-image: url('https://image.freepik.com/vector-gratis/fondo-abstracto-moderno-elementos-memphis-gradientes-amarillos-verdes-temas-retro-carteles-pancartas-paginas-inicio-sitio-web_8221-1089.jpg'); 
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .contenedor-longitudes {
+    position: relative;
+    width: 700px;
+    height: 200px;
+    left: 24.13%;  
+    margin-top: 30px;
+  background-color: #4b434e;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-blue-gradient-low-polygon-background-panel-design-polygonbackgrounddisplay-board-design-image_66265.jpg'); 
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: gray 4px 4px;
+  }
+  .titulo-principal {
+      position: relative;
+      text-align: center;
+      margin: 13px 0px;
+      height: 60px ;
+      color: greenyellow;
+      text-shadow: darkblue 2.3px 2.3px;
+      margin-top: 30px;
+      font-size: 30px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  input {
+      height: 40px;
+      width: 310px;
+      
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #input, #input2, #input3, #input4 {
+      margin-left: 25px;
+      margin-top: 2px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      ;
+  }
+  #inputType,#resultType, #inputType2,#resultType2, #inputType3,#resultType3, #inputType4,#resultType4{
+      width: 310px;
+      height: 30px;
+      margin-left: 25px;
+      background-color: rgb(115, 167, 235);
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #resultType, #resultType2, #resultType3,  #resultType4{
+      margin-left: 22px;
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #igual{
+    width: 2.5%;
+}
+.titulo-secundario{
+  text-align: center;
+  color:#EE5F0D;
+  text-shadow: black 2px 2px;
+  font-size: 25px;
+ 
+}
+#parte2, #parte3, #parte4{
+  display: none;
+}
+.menu{
+  position: relative;
+  margin-top: 4%;
+  left: 31.5%;
+}
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton1 {
+  background-color: transparent; 
+  color: black ; 
+  border: 2px solid #008CBA;
+  border-radius: 5px;
+}
+
+.boton1:hover {
+  background-color: #008CBA;
+  color: white;
+  border-radius: 10px;
+}
